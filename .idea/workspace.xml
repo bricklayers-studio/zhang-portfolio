@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c90fcbb6-8f04-45c0-a812-0d8fe47ab452" name="Changes" comment="Changed up the sections">
+      <change afterPath="$PROJECT_DIR$/public/images/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="4" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="jingxiangmo" />
+                    <option name="lastUsedInstant" value="1645823285" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1645749541" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="development" />
+                    <option name="lastUsedInstant" value="1645749068" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25ZsL94tMMfRh7nAjfbZ51IA7P8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/dist" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c90fcbb6-8f04-45c0-a812-0d8fe47ab452" name="Changes" comment="" />
+      <created>1645745884643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645745884643</updated>
+      <workItem from="1645745885976" duration="156000" />
+      <workItem from="1645746171701" duration="207000" />
+      <workItem from="1645746387877" duration="123000" />
+      <workItem from="1645746513336" duration="582000" />
+      <workItem from="1645747109220" duration="18000" />
+      <workItem from="1645749010470" duration="369000" />
+      <workItem from="1645749450758" duration="1757000" />
+      <workItem from="1645809548035" duration="3134000" />
+      <workItem from="1645813867534" duration="2294000" />
+      <workItem from="1645816187069" duration="7009000" />
+    </task>
+    <task id="LOCAL-00001" summary="Template cleanup">
+      <created>1645746855570</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645746855570</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added sample artworks">
+      <created>1645749476872</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645749476872</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated README and photos">
+      <created>1645749927865</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645749927865</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated README and photos">
+      <created>1645749997599</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645749997599</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Tailwind configuration and rewrite">
+      <created>1645810811338</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645810811338</updated>
+    </task>
+    <task id="LOCAL-00006" summary="README file name change">
+      <created>1645810844242</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645810844242</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Installed Tailwind, composed index.html">
+      <created>1645817157041</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645817157041</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added tailwind templates">
+      <created>1645821085177</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645821085177</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changed to a onepage format">
+      <created>1645822043765</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1645822043765</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added contact section">
+      <created>1645822428088</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645822428088</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added &quot;about me&quot; section">
+      <created>1645822873387</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645822873387</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Changed up the sections">
+      <created>1645823163808</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1645823163808</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Template cleanup" />
+    <MESSAGE value="Added sample artworks" />
+    <MESSAGE value="Updated README and photos" />
+    <MESSAGE value="Tailwind configuration and rewrite" />
+    <MESSAGE value="README file name change" />
+    <MESSAGE value="Installed Tailwind, composed index.html" />
+    <MESSAGE value="Added tailwind templates" />
+    <MESSAGE value="Changed to a onepage format" />
+    <MESSAGE value="Added contact section" />
+    <MESSAGE value="Added &quot;about me&quot; section" />
+    <MESSAGE value="Changed up the sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed up the sections" />
+  </component>
+</project>
