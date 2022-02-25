@@ -2,12 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Zhang</title>
+    <title>Qing Zhang</title>
     <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.2/tailwind.min.css" />
 </head>
 <body>
-    <h1 class="text-3xl font-bold underline text-center">
-        Hello world!
-    </h1>
+    <div class="flex justify-start h-screen">
+
+        <!-- LEFT NAVIGATION COLUMN -->
+        <div class="w-1/3 h-screen bg-gray-400">
+            <nav>
+                <li> Work </li>
+                <li> Art </li>
+            </nav>
+        </div>
+
+        <!-- RIGHT ARTWORK DISPLAY COLUMN -->
+        <div class="w-full h-screen">
+            <div class="columns-3 gap-3">
+                <img class="w-full" src="/public/images/IMG-0051.JPG"/>
+                <img class="" src="/public/images/IMG-0051.JPG"/>
+                <img class="" src="/public/images/IMG-0051.JPG"/>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
