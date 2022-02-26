@@ -30,3 +30,4 @@ window.onload = () => {
     menu.classList.toggle('hidden');
   })
 };
+
