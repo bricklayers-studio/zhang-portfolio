@@ -18,14 +18,15 @@ targets.forEach(function (target) {
   observer.observe(target);
 });
 
-// Carl
+// Toggling Hamburger Menu
 window.onload = () => {
-  const hamburgerButton = document.getElementById("menu-button");
   const menu = document.getElementById("mobile-menu");
-
-  console.log(hamburgerButton);
-  console.log(menu);
-  hamburgerButton.addEventListener("click", () => {
-    menu.classList.toggle("hidden");
+  document.querySelectorAll('.toggle-trigger').forEach(item => {
+    item.addEventListener('click', () => {
+      menu.classList.add("hidden");
+    })
   });
+  document.getElementById('menu-button').addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  })
 };

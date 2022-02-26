@@ -4,25 +4,35 @@
     <meta charset="UTF-8" />
     <title>Qing Zhang</title>
     <link href="/dist/output.css" rel="stylesheet" />
+    <head>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+    </head>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.2/tailwind.min.css"
     />
     <script src="script.js"></script>
   </head>
-  <body class="pt-20">
-
+  <body class="pt-20 relative">
     <!-- NAVBAR -->
     <header
-      class="bg-white fixed top-0 inset-x-0 flex justify-center items-center"
+      class="bg-white fixed top-0 inset-x-0 flex justify-center items-center z-10"
     >
       <div
         class="w-4/5 py-5 flex flex-wrap justify-between items-center relative"
       >
-        <a href="" class="font-black text-lg"> CATHY ZHANG </a>
+        <a
+          href=""
+          class="font-black text-lg transform hover:scale-105 transition ease-in-out"
+        >
+          CATHY ZHANG
+        </a>
         <button
-          id="menu-button"
           data-collapse-toggle="mobile-menu"
+          id="menu-button"
           type="button"
           class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           aria-controls="mobile-menu-2"
@@ -59,16 +69,16 @@
             class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium"
           >
             <li
-              class="md:no-underline md:transform md:hover:underline md:hover:scale-125 md:transition md:ease-in-out"
+              class="toggle-trigger md:no-underline md:transform md:hover:underline md:hover:scale-125 md:transition md:ease-in-out"
             >
               <a
-                href=""
+                href="#"
                 class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
                 >Art</a
               >
             </li>
             <li
-              class="md:no-underline md:transform md:hover:underline md:hover:scale-125 md:transition md:ease-in-out"
+              class="toggle-trigger md:no-underline md:transform md:hover:underline md:hover:scale-125 md:transition md:ease-in-out"
             >
               <a
                 href="#about"
@@ -77,11 +87,11 @@
               >
             </li>
             <li
-              class="md:no-underline md:transform md:hover:underline md:hover:scale-125 md:transition md:ease-in-out"
+              class="toggle-trigger md:no-underline md:transform md:hover:underline md:hover:scale-125 md:transition md:ease-in-out"
             >
               <a
                 href="#contact"
-                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
+                class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0"
                 >Contact</a
               >
             </li>
@@ -93,31 +103,31 @@
     <!-- ARTWORKS -->
     <div class="px-12 flex flex-wrap gap-4">
       <img
-        class="w-auto h-72 flex-grow object-cover"
+        class="w-auto h-72 flex-grow object-cover animate__animated animate__fadeInLeft animate__slower"
         src="https://images.unsplash.com/photo-1457129962825-adcaea7406c3?auto=format&fit=crop&w=800&q=80"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover"
+        class="w-auto h-72 flex-grow object-cover animate__animated animate__fadeInDown animate__slow"
         src="https://images.unsplash.com/photo-1433838552652-f9a46b332c40?auto=format&fit=crop&w=800&q=80"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover"
+        class="w-auto h-72 flex-grow object-cover animate__animated animate__fadeInRight animate__slower"
         src="https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?auto=format&fit=crop&w=800&q=80"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover"
+        class="w-auto h-72 flex-grow object-cover animate__animated animate__fadeInLeft animate__slower" 
         src="https://images.unsplash.com/photo-1500817487388-039e623edc21?auto=format&fit=crop&w=800&q=80"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover"
+        class="w-auto h-72 flex-grow object-cover animate__animated animate__fadeInLeft animate__slow"
         src="https://images.unsplash.com/photo-1413752362258-7af2a667b590?auto=format&fit=crop&w=800&q=80"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover"
+        class="w-auto h-72 flex-grow object-cover animate__animated animate__fadeInRight animate__slower"
         src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover"
+        class="w-auto h-72 flex-grow object-cover animate__animated animate__fadeInUp animate__slower"
         src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&w=800&q=80"
       />
     </div>
@@ -125,7 +135,7 @@
     <!-- ABOUT  -->
     <div
       id="about"
-      class="h-screen w-full px-6 md:px-12 pb-12 pt-32 flex flex-wrap justify-between"
+      class="h-screen w-full px-6 md:px-12 pb-12 pt-32 flex flex-wrap justify-between relative"
     >
       <div
         class="bg-gray-lighter md:h-3/4 w-full md:flex-1 bg-cover bg-center bg-no-repeat"
@@ -159,35 +169,36 @@
 
     <!-- ARTWORKS -->
     <div class="px-12 flex flex-wrap gap-4">
-      <img
-        class="w-auto h-72 flex-grow object-cover"
-        src="https://images.unsplash.com/photo-1457129962825-adcaea7406c3?auto=format&fit=crop&w=800&q=80"
-      />
-      <img
-        class="w-auto h-72 flex-grow object-cover"
-        src="https://images.unsplash.com/photo-1433838552652-f9a46b332c40?auto=format&fit=crop&w=800&q=80"
-      />
-      <img
-        class="w-auto h-72 flex-grow object-cover"
-        src="https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?auto=format&fit=crop&w=800&q=80"
-      />
-      <img
-        class="w-auto h-72 flex-grow object-cover"
-        src="https://images.unsplash.com/photo-1500817487388-039e623edc21?auto=format&fit=crop&w=800&q=80"
-      />
-      <img
-        class="w-auto h-72 flex-grow object-cover"
-        src="https://images.unsplash.com/photo-1413752362258-7af2a667b590?auto=format&fit=crop&w=800&q=80"
-      />
-      <img
-        class="w-auto h-72 flex-grow object-cover"
-        src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
-      />
-      <img
-        class="w-auto h-72 flex-grow object-cover"
-        src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&w=800&q=80"
-      />
-    </div>
+        <img
+          class="w-auto h-72 flex-grow object-cover animate__animated animate__fadeInLeft animate__slower"
+          src="https://images.unsplash.com/photo-1457129962825-adcaea7406c3?auto=format&fit=crop&w=800&q=80"
+        />
+        <img
+          class="w-auto h-72 flex-grow object-cover animate__animated animate__fadeInDown animate__slow"
+          src="https://images.unsplash.com/photo-1433838552652-f9a46b332c40?auto=format&fit=crop&w=800&q=80"
+        />
+        <img
+          class="w-auto h-72 flex-grow object-cover animate__animated animate__fadeInRight animate__slower"
+          src="https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?auto=format&fit=crop&w=800&q=80"
+        />
+        <img
+          class="w-auto h-72 flex-grow object-cover animate__animated animate__fadeInLeft animate__slower" 
+          src="https://images.unsplash.com/photo-1500817487388-039e623edc21?auto=format&fit=crop&w=800&q=80"
+        />
+        <img
+          class="w-auto h-72 flex-grow object-cover animate__animated animate__fadeInLeft animate__slow"
+          src="https://images.unsplash.com/photo-1413752362258-7af2a667b590?auto=format&fit=crop&w=800&q=80"
+        />
+        <img
+          class="w-auto h-72 flex-grow object-cover animate__animated animate__fadeInRight animate__slower"
+          src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+        />
+        <img
+          class="w-auto h-72 flex-grow object-cover animate__animated animate__fadeInUp animate__slower"
+          src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&w=800&q=80"
+        />
+      </div>
+  
 
     <!-- CONTACT -->
     <div id="contact" class="w-full bg-white">
