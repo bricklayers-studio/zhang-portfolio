@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c90fcbb6-8f04-45c0-a812-0d8fe47ab452" name="Changes" comment="Changed up the sections">
-      <change afterPath="$PROJECT_DIR$/public/images/profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_cn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/cropped/profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/cropped/profile.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +35,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="jingxiangmo" />
-                    <option name="lastUsedInstant" value="1645823285" />
+                    <option name="branchName" value="dev-language" />
+                    <option name="lastUsedInstant" value="1645982686" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1645749541" />
+                    <option name="lastUsedInstant" value="1645916684" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="jingxiangmo" />
+                    <option name="lastUsedInstant" value="1645823285" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="development" />
@@ -74,13 +78,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
@@ -104,7 +111,9 @@
       <workItem from="1645749450758" duration="1757000" />
       <workItem from="1645809548035" duration="3134000" />
       <workItem from="1645813867534" duration="2294000" />
-      <workItem from="1645816187069" duration="7009000" />
+      <workItem from="1645816187069" duration="8271000" />
+      <workItem from="1645916611933" duration="1332000" />
+      <workItem from="1645981892491" duration="4169000" />
     </task>
     <task id="LOCAL-00001" summary="Template cleanup">
       <created>1645746855570</created>
