@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c90fcbb6-8f04-45c0-a812-0d8fe47ab452" name="Changes" comment="Changed up the sections">
-      <change afterPath="$PROJECT_DIR$/index_cn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_en.html" afterDir="false" />
+    <list default="true" id="c90fcbb6-8f04-45c0-a812-0d8fe47ab452" name="Changes" comment="Added chinese version and navbar controls">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/cropped/profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/cropped/profile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_cn.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_cn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/input.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +33,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dev-responsive-design" />
+                    <option name="lastUsedInstant" value="1645987315" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="dev-language" />
                     <option name="lastUsedInstant" value="1645982686" />
@@ -113,7 +116,7 @@
       <workItem from="1645813867534" duration="2294000" />
       <workItem from="1645816187069" duration="8271000" />
       <workItem from="1645916611933" duration="1332000" />
-      <workItem from="1645981892491" duration="4169000" />
+      <workItem from="1645981892491" duration="5323000" />
     </task>
     <task id="LOCAL-00001" summary="Template cleanup">
       <created>1645746855570</created>
@@ -199,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645823163808</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added chinese version and navbar controls">
+      <created>1645987107740</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1645987107740</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +239,7 @@
     <MESSAGE value="Added contact section" />
     <MESSAGE value="Added &quot;about me&quot; section" />
     <MESSAGE value="Changed up the sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed up the sections" />
+    <MESSAGE value="Added chinese version and navbar controls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added chinese version and navbar controls" />
   </component>
 </project>
