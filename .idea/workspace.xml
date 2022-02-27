@@ -4,8 +4,7 @@
     <list default="true" id="c90fcbb6-8f04-45c0-a812-0d8fe47ab452" name="Changes" comment="Added chinese version and navbar controls">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index_cn.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_cn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +33,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1645988534" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="dev-responsive-design" />
                     <option name="lastUsedInstant" value="1645987315" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="dev-language" />
                     <option name="lastUsedInstant" value="1645982686" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1645916684" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="jingxiangmo" />
