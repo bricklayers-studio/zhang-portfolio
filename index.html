@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Qing Zhang</title>
     <link href="/dist/output.css" rel="stylesheet" />
+    <link href="input.css" rel="stylesheet" />
     <link href="./public/images/cropped/profile-circle.png" rel="icon" />
     <head>
       <link
@@ -18,6 +19,7 @@
     <script src="script.js"></script>
   </head>
   <body class="pt-20 relative">
+
     <!-- NAVBAR -->
     <header
       class="bg-white fixed top-0 inset-x-0 flex justify-center items-center z-10"
@@ -104,39 +106,39 @@
     <!-- ARTWORKS -->
     <div class="px-12 flex flex-wrap gap-4">
       <img
-        class="w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slower"
+        class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slower"
         src="public/images/cropped/1.png"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInDown animate__slow animate__delay-1s"
+        class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInDown animate__slow animate__delay-1s"
         src="public/images/cropped/2.png"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slower"
+        class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slower"
         src="public/images/cropped/3.png"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInUp animate__slower"
+        class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInUp animate__slower"
         src="public/images/cropped/4.png"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slow"
+        class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slow"
         src="public/images/cropped/5.png"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slower animate__delay-1s"
+        class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slower animate__delay-1s"
         src="public/images/cropped/6.png"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slow animate__delay-1s"
+        class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slow animate__delay-1s"
         src="public/images/cropped/7.png"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slower"
+        class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slower"
         src="public/images/cropped/8.png"
       />
       <img
-        class="w-auto h-full flex-grow object-cover object-top animate__animated animate__fadeInUp animate__slower"
+        class="modal-target w-auto h-72 flex-grow object-cover object-top animate__animated animate__fadeInUp animate__slower"
         src="public/images/cropped/9.png"
       />
     </div>
@@ -148,9 +150,7 @@
     >
       <div
         class="bg-gray-lighter md:h-3/4 w-full md:flex-1 bg-cover bg-center bg-no-repeat"
-        style="
-          background-image: url('./public/images/cropped/profile.jpg');
-        "
+        style="background-image: url('./public/images/cropped/profile.jpg')"
       ></div>
 
       <div
@@ -179,31 +179,31 @@
     <!-- ARTWORKS -->
     <div class="px-12 flex flex-wrap gap-4">
       <img
-        class="w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slower"
+        class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slower"
         src="public/images/cropped/10.png"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInDown animate__slow"
+        class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInDown animate__slow"
         src="public/images/cropped/11.png"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slow"
+        class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slow"
         src="public/images/cropped/12.png"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slow"
+        class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slow"
         src="public/images/cropped/13.png"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slower"
+        class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slower"
         src="public/images/cropped/14.png"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slower"
+        class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slower"
         src="public/images/cropped/15.png"
       />
       <img
-        class="w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slow"
+        class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slow"
         src="public/images/cropped/16.png"
       />
     </div>
@@ -211,11 +211,13 @@
     <!-- CONTACT -->
     <div id="contact" class="w-full bg-gray-100 mt-10">
       <!-- /title -->
-      <div class="container max-w-4xl mx-auto pb-10 px-12 md:px-3">
+      <div class="container max-w-4xl mx-auto py-10 px-12 md:px-3">
         <div class="flex flex-wrap justify-start items-center -mx-4">
           <div class="w-full md:w-1/2 p-4">
             <h1 class="text-4xl pt-6">Contact me</h1>
-            <p class="leading-loose text-gray-dark pb-6">Please feel free to contact me!</p>
+            <p class="leading-loose text-gray-dark pb-6">
+              Please feel free to contact me!
+            </p>
             <form
               action="https://formsubmit.co/carlmachaalany1@gmail.com"
               method="POST"
@@ -262,6 +264,12 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- IMAGE MODAL -->
+    <div id="modal" class="modal z-20">
+      <span id="modal-close" class="modal-close">&times;</span>
+      <img id="modal-content" class="modal-content" />
     </div>
   </body>
 </html>

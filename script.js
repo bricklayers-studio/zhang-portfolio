@@ -18,16 +18,32 @@ targets.forEach(function (target) {
   observer.observe(target);
 });
 
-// Toggling Hamburger Menu
 window.onload = () => {
+  // Toggling Hamburger Menu
   const menu = document.getElementById("mobile-menu");
-  document.querySelectorAll('.toggle-trigger').forEach(item => {
-    item.addEventListener('click', () => {
+  document.querySelectorAll(".toggle-trigger").forEach((item) => {
+    item.addEventListener("click", () => {
       menu.classList.add("hidden");
-    })
+    });
   });
-  document.getElementById('menu-button').addEventListener('click', () => {
-    menu.classList.toggle('hidden');
-  })
-};
+  document.getElementById("menu-button").addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+  });
 
+  // Modal Setup
+  var modal = document.getElementById("modal");
+  var modalClose = document.getElementById("modal-close");
+  modalClose.addEventListener("click", function () {
+    modal.style.display = "none";
+  });
+
+  // global modal handler
+  document.addEventListener("click", (e) => {
+    if (e.target.className.indexOf("modal-target") !== -1) {
+      var img = e.target;
+      var modalImg = document.getElementById("modal-content");
+      modal.style.display = "block";
+      modalImg.src = img.src;
+    }
+  });
+};
