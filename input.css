@@ -88,3 +88,7 @@ html, body {
   #secondary { width:100%; margin:0; border:none; }
   .artwork-desktop { display: none; }
 }
+
+.about-wrapper {
+  height: fit-content;
+}
