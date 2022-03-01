@@ -9,7 +9,7 @@
   <title>张清</title>
   <link href="/dist/output.css" rel="stylesheet" />
   <link href="input.css" rel="stylesheet" />
-  <link href="./public/images/cropped/profile-circle.jpg" rel="icon" />
+  <link href="./public/images/cropped/profile-circle.png" rel="icon" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.2/tailwind.min.css" />
   <script src="script.js"></script>
@@ -21,267 +21,270 @@
 
 <body class="pt-20 relative">
 
-<!-- NAVBAR -->
-<header class="bg-white fixed top-0 inset-x-0 flex justify-center items-center z-10">
-  <div class="w-4/5 py-5 flex flex-wrap justify-between items-center relative">
-    <a href="" class="font-black text-lg transform hover:scale-105 transition ease-in-out">
-      CATHY QING ZHANG</a>
-    <button data-collapse-toggle="mobile-menu" id="menu-button" type="button"
-            class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="mobile-menu-2" aria-expanded="false">
-      <span class="sr-only">Open main menu</span>
-      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"></path>
-      </svg>
-      <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd"
-              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-              clip-rule="evenodd"></path>
-      </svg>
+  <!-- NAVBAR -->
+  <header class="bg-white fixed top-0 inset-x-0 flex justify-center items-center z-10">
+    <div class="w-4/5 py-5 flex flex-wrap justify-between items-center relative">
+      <a href="" class="font-black text-lg transform hover:scale-105 transition ease-in-out">
+        CATHY QING ZHANG</a>
+      <button data-collapse-toggle="mobile-menu" id="menu-button" type="button"
+        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="mobile-menu-2" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"></path>
+        </svg>
+        <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+        <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+          <li
+            class="toggle-trigger md:no-underline md:transform md:hover:underline md:hover:scale-125 md:transition md:ease-in-out">
+            <a href="#"
+              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">艺术</a>
+          </li>
+          <li
+            class="toggle-trigger md:no-underline md:transform md:hover:underline md:hover:scale-125 md:transition md:ease-in-out">
+            <a href="#about"
+              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">关于</a>
+          </li>
+          <li
+            class="toggle-trigger md:no-underline md:transform md:hover:underline md:hover:scale-125 md:transition md:ease-in-out">
+            <a href="#contact"
+              class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">联系</a>
+          </li>
+          <li
+            class="toggle-trigger md:no-underline md:transform md:hover:underline md:hover:scale-125 md:transition md:ease-in-out">
+            <a href="index.html"
+              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">
+              English </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE CAROUSEL -->
+  <div id="carouselExampleCaptions" class="md:hidden carousel slide relative" data-bs-ride="carousel">
+    <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+        aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+        aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+        aria-label="Slide 8"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"
+        aria-label="Slide 9"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9"
+        aria-label="Slide 10"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10"
+        aria-label="Slide 11"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11"
+        aria-label="Slide 12"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12"
+        aria-label="Slide 13"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13"
+        aria-label="Slide 14"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="14"
+        aria-label="Slide 15"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="15"
+        aria-label="Slide 16"></button>
+    </div>
+    <div class="carousel-inner relative w-full overflow-hidden">
+      <div class="carousel-item active relative float-left w-full">
+        <img src="public/images/cropped/1.webp" class="block w-full" alt="..." />
+      </div>
+      <div class="carousel-item relative float-left w-full">
+        <img src="public/images/cropped/2.webp" class="block w-full" alt="..." />
+      </div>
+      <div class="carousel-item relative float-left w-full">
+        <img src="public/images/cropped/3.webp" class="block w-full" alt="..." />
+      </div>
+      <div class="carousel-item relative float-left w-full">
+        <img src="public/images/cropped/4.webp" class="block w-full" alt="..." />
+      </div>
+      <div class="carousel-item relative float-left w-full">
+        <img src="public/images/cropped/5.webp" class="block w-full" alt="..." />
+      </div>
+      <div class="carousel-item relative float-left w-full">
+        <img src="public/images/cropped/6.webp" class="block w-full" alt="..." />
+      </div>
+      <div class="carousel-item relative float-left w-full">
+        <img src="public/images/cropped/7.webp" class="block w-full" alt="..." />
+      </div>
+      <div class="carousel-item relative float-left w-full">
+        <img src="public/images/cropped/8.webp" class="block w-full" alt="..." />
+      </div>
+      <div class="carousel-item relative float-left w-full">
+        <img src="public/images/cropped/9.webp" class="block w-full" alt="..." />
+      </div>
+      <div class="carousel-item relative float-left w-full">
+        <img src="public/images/cropped/10.webp" class="block w-full" alt="..." />
+      </div>
+      <div class="carousel-item relative float-left w-full">
+        <img src="public/images/cropped/11.webp" class="block w-full" alt="..." />
+      </div>
+      <div class="carousel-item relative float-left w-full">
+        <img src="public/images/cropped/12.webp" class="block w-full" alt="..." />
+      </div>
+      <div class="carousel-item relative float-left w-full">
+        <img src="public/images/cropped/13.webp" class="block w-full" alt="..." />
+      </div>
+      <div class="carousel-item relative float-left w-full">
+        <img src="public/images/cropped/14.webp" class="block w-full" alt="..." />
+      </div>
+      <div class="carousel-item relative float-left w-full">
+        <img src="public/images/cropped/15.webp" class="block w-full" alt="..." />
+      </div>
+      <div class="carousel-item relative float-left w-full">
+        <img src="public/images/cropped/16.webp" class="block w-full" alt="..." />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+      type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
     </button>
-    <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
-      <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-        <li
-                class="toggle-trigger md:no-underline md:transform md:hover:underline md:hover:scale-125 md:transition md:ease-in-out">
-          <a href="#"
-             class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">艺术</a>
-        </li>
-        <li
-                class="toggle-trigger md:no-underline md:transform md:hover:underline md:hover:scale-125 md:transition md:ease-in-out">
-          <a href="#about"
-             class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">关于</a>
-        </li>
-        <li
-                class="toggle-trigger md:no-underline md:transform md:hover:underline md:hover:scale-125 md:transition md:ease-in-out">
-          <a href="#contact"
-             class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">联系</a>
-        </li>
-        <li
-                class="toggle-trigger md:no-underline md:transform md:hover:underline md:hover:scale-125 md:transition md:ease-in-out">
-          <a href="index.html"
-             class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">
-            English </a>
-        </li>
-      </ul>
-    </div>
+    <button
+      class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+      type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-</header>
 
-<!-- MOBILE CAROUSEL -->
-<div id="carouselExampleCaptions" class="md:hidden carousel slide relative" data-bs-ride="carousel">
-  <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-            aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-            aria-label="Slide 5"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
-            aria-label="Slide 6"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
-            aria-label="Slide 7"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
-            aria-label="Slide 8"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"
-            aria-label="Slide 9"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9"
-            aria-label="Slide 10"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10"
-            aria-label="Slide 11"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11"
-            aria-label="Slide 12"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12"
-            aria-label="Slide 13"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13"
-            aria-label="Slide 14"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="14"
-            aria-label="Slide 15"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="15"
-            aria-label="Slide 16"></button>
+  <!-- ARTWORKS -->
+  <div class="artwork-desktop px-12 md:flex md:flex-wrap md:gap-4">
+    <img
+      class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slower"
+      src="public/images/cropped/1.webp" />
+    <img
+      class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInDown animate__slow animate__delay-1s"
+      src="public/images/cropped/2.webp" />
+    <img
+      class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slower"
+      src="public/images/cropped/3.webp" />
+    <img
+      class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInUp animate__slower"
+      src="public/images/cropped/4.webp" />
+    <img
+      class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slow"
+      src="public/images/cropped/5.webp" />
+    <img
+      class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slower animate__delay-1s"
+      src="public/images/cropped/6.webp" />
+    <img
+      class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slow animate__delay-1s"
+      src="public/images/cropped/7.webp" />
+    <img
+      class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slower"
+      src="public/images/cropped/8.webp" />
+    <img
+      class="modal-target w-auto h-72 flex-grow object-cover object-top animate__animated animate__fadeInUp animate__slower"
+      src="public/images/cropped/9.webp" />
   </div>
-  <div class="carousel-inner relative w-full overflow-hidden">
-    <div class="carousel-item active relative float-left w-full">
-      <img src="public/images/cropped/1.webp" class="block w-full" alt="..." />
-    </div>
-    <div class="carousel-item relative float-left w-full">
-      <img src="public/images/cropped/2.webp" class="block w-full" alt="..." />
-    </div>
-    <div class="carousel-item relative float-left w-full">
-      <img src="public/images/cropped/3.webp" class="block w-full" alt="..." />
-    </div>
-    <div class="carousel-item relative float-left w-full">
-      <img src="public/images/cropped/4.webp" class="block w-full" alt="..." />
-    </div>
-    <div class="carousel-item relative float-left w-full">
-      <img src="public/images/cropped/5.webp" class="block w-full" alt="..." />
-    </div>
-    <div class="carousel-item relative float-left w-full">
-      <img src="public/images/cropped/6.webp" class="block w-full" alt="..." />
-    </div>
-    <div class="carousel-item relative float-left w-full">
-      <img src="public/images/cropped/7.webp" class="block w-full" alt="..." />
-    </div>
-    <div class="carousel-item relative float-left w-full">
-      <img src="public/images/cropped/8.webp" class="block w-full" alt="..." />
-    </div>
-    <div class="carousel-item relative float-left w-full">
-      <img src="public/images/cropped/9.webp" class="block w-full" alt="..." />
-    </div>
-    <div class="carousel-item relative float-left w-full">
-      <img src="public/images/cropped/10.webp" class="block w-full" alt="..." />
-    </div>
-    <div class="carousel-item relative float-left w-full">
-      <img src="public/images/cropped/11.webp" class="block w-full" alt="..." />
-    </div>
-    <div class="carousel-item relative float-left w-full">
-      <img src="public/images/cropped/12.webp" class="block w-full" alt="..." />
-    </div>
-    <div class="carousel-item relative float-left w-full">
-      <img src="public/images/cropped/13.webp" class="block w-full" alt="..." />
-    </div>
-    <div class="carousel-item relative float-left w-full">
-      <img src="public/images/cropped/14.webp" class="block w-full" alt="..." />
-    </div>
-    <div class="carousel-item relative float-left w-full">
-      <img src="public/images/cropped/15.webp" class="block w-full" alt="..." />
-    </div>
-    <div class="carousel-item relative float-left w-full">
-      <img src="public/images/cropped/16.webp" class="block w-full" alt="..." />
-    </div>
-  </div>
-  <button
-          class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-          type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button
-          class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-          type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-<!-- ARTWORKS -->
-<div class="artwork-desktop px-12 md:flex md:flex-wrap md:gap-4">
-  <img
-          class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slower"
-          src="public/images/cropped/1.webp" />
-  <img
-          class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInDown animate__slow animate__delay-1s"
-          src="public/images/cropped/2.webp" />
-  <img
-          class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slower"
-          src="public/images/cropped/3.webp" />
-  <img
-          class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInUp animate__slower"
-          src="public/images/cropped/4.webp" />
-  <img
-          class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slow"
-          src="public/images/cropped/5.webp" />
-  <img
-          class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slower animate__delay-1s"
-          src="public/images/cropped/6.webp" />
-  <img
-          class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slow animate__delay-1s"
-          src="public/images/cropped/7.webp" />
-  <img
-          class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slower"
-          src="public/images/cropped/8.webp" />
-  <img
-          class="modal-target w-auto h-72 flex-grow object-cover object-top animate__animated animate__fadeInUp animate__slower"
-          src="public/images/cropped/9.webp" />
-</div>
 
 
-<!-- ABOUT  -->
-<div id="about" class="h-screen w-full px-6 md:px-12 pb-12 pt-32 flex flex-wrap relative">
-  <div class="bg-gray-lighter md:h-3/4 w-full md:flex-1 bg-cover bg-center bg-no-repeat"><img src="./public/images/cropped/profile.jpg"/></div>
-  <div class="md:h-full w-full md:flex-1 flex justify-center items-center">
-    <div class="px-8 md:px-16">
-      <h1 class="text-lg md:text-3xl mb-6">Cathy 张清</h1>
-      <p class="mb-6">
+  <!-- ABOUT  -->
+  <div id="about" class="about-wrapper w-full px-12 py-16 md:py-24 flex flex-wrap items-center relative">
+    <div class="pb-4 g-gray-lighter md:h-3/4 w-full md:flex-1 bg-cover bg-center bg-no-repeat"><img
+        src="./public/images/cropped/profile.jpg" class="ml-auto"/></div>
+    <div class="md:h-full w-full md:flex-1 flex flex-col justify-center md:items-start md:ml-10 items-center">
+      <h1 class="text-3xl mb-2">Cathy 张清</h1>
+      <p class="mb-2">
         <span class="font-bold">艺术家和抵押顾问</span>
       </p>
-      <p class="mb-6 leading-normal text-sm md:text-base"> 我是一个加拿大哥伦比亚省的抵押贷款经纪人。我对绘画和艺术充满热情。 </p>
-      <a href="#contact" class="block md:inline-block text-center no-underline px-5 py-3 hidden md:block border-2">联络我</a>
+      <p class="text-sm md:text-base"> 我是一个加拿大哥伦比亚省的抵押贷款经纪人。我对绘画和艺术充满热情。</p>
+      <a href="#contact"
+        class="block md:inline-block text-center no-underline px-5 py-3 my-3 hidden md:block border-2">联络我</a>
     </div>
   </div>
-</div>
 
-<!-- ARTWORKS -->
-<div class="artwork-desktop px-12 md:flex md:flex-wrap md:gap-4">
-  <img
-          class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slower"
-          src="public/images/cropped/10.webp" />
-  <img
-          class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInDown animate__slow"
-          src="public/images/cropped/11.webp" />
-  <img
-          class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slow"
-          src="public/images/cropped/12.webp" />
-  <img
-          class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slow"
-          src="public/images/cropped/13.webp" />
-  <img
-          class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slower"
-          src="public/images/cropped/14.webp" />
-  <img
-          class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slower"
-          src="public/images/cropped/15.webp" />
-  <img
-          class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slow"
-          src="public/images/cropped/16.webp" />
-</div>
+  <!-- ARTWORKS -->
+  <div class="artwork-desktop px-12 md:flex md:flex-wrap md:gap-4">
+    <img
+      class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slower"
+      src="public/images/cropped/10.webp" />
+    <img
+      class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInDown animate__slow"
+      src="public/images/cropped/11.webp" />
+    <img
+      class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slow"
+      src="public/images/cropped/12.webp" />
+    <img
+      class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slow"
+      src="public/images/cropped/13.webp" />
+    <img
+      class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slower"
+      src="public/images/cropped/14.webp" />
+    <img
+      class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInLeft animate__slower"
+      src="public/images/cropped/15.webp" />
+    <img
+      class="modal-target w-auto h-72 flex-grow object-cover object-center animate__animated animate__fadeInRight animate__slow"
+      src="public/images/cropped/16.webp" />
+  </div>
 
-<!-- CONTACT -->
-<div id="contact" class="w-full bg-gray-100 mt-10">
-  <!-- title -->
-  <div class="container max-w-4xl mx-auto py-10 px-12 md:px-3">
-    <div class="flex flex-wrap justify-start items-center -mx-4">
-      <div class="w-full md:w-1/2 p-4">
-        <h1 class="text-4xl pt-6">联络我</h1>
-        <p class="leading-loose text-gray-dark pb-6"> 请随时与我联系！</p>
-        <form action="https://formsubmit.co/cathyzhang57@gmail.com" method="POST">
-          <fieldset class="mb-4">
-            <label class="block text-sm text-gray-dark pb-2">姓名</label>
-            <input class="block w-full border rounded py-2 px-3 text-sm text-gray-700" type="text" name="name" />
-          </fieldset>
-          <fieldset class="mb-4">
-            <label class="block text-sm text-gray-dark pb-2">电子邮件</label>
-            <input class="block w-full border rounded py-2 px-3 text-sm text-gray-700" type="text" name="email" />
-          </fieldset>
-          <fieldset class="mb-4">
-            <label class="block text-sm text-gray-dark pb-2">信息</label>
-            <textarea class="block w-full border border-red-300er rounded py-2 px-3 text-sm text-gray-700 h-32"
-                      name="message"></textarea>
-          </fieldset>
-          <button class="text-sm py-2 px-3 bg-black text-white rounded" type="submit">提交</button>
-        </form>
-      </div>
-      <div class="w-full md:w-1/2 p-4">
-        <div class="overflow-hidden rounded border mb-6">
-          <img src="./public/images/cropped/17.webp" />
+  <!-- CONTACT -->
+  <div id="contact" class="w-full bg-gray-100 mt-10">
+    <!-- title -->
+    <div class="container max-w-4xl mx-auto py-10 px-12 md:px-3">
+      <div class="flex flex-wrap justify-start items-center -mx-4">
+        <div class="w-full md:w-1/2 p-4">
+          <h1 class="text-4xl pt-6">联络我</h1>
+          <p class="leading-loose text-gray-dark pb-6"> 请随时与我联系！ </p>
+          <form action="https://formsubmit.co/cathyzhang57@gmail.com" method="POST">
+            <fieldset class="mb-4">
+              <label class="block text-sm text-gray-dark pb-2">姓名</label>
+              <input class="block w-full border rounded py-2 px-3 text-sm text-gray-700" type="text" name="name" />
+            </fieldset>
+            <fieldset class="mb-4">
+              <label class="block text-sm text-gray-dark pb-2">电子邮件</label>
+              <input class="block w-full border rounded py-2 px-3 text-sm text-gray-700" type="text" name="email" />
+            </fieldset>
+            <fieldset class="mb-4">
+              <label class="block text-sm text-gray-dark pb-2">信息</label>
+              <textarea class="block w-full border border-red-300er rounded py-2 px-3 text-sm text-gray-700 h-32"
+                name="message"></textarea>
+            </fieldset>
+            <button class="text-sm py-2 px-3 bg-black text-white rounded" type="submit"> 提交 </button>
+          </form>
+        </div>
+        <div class="w-full md:w-1/2 p-4">
+          <div class="overflow-hidden rounded border mb-6">
+            <img src="./public/images/cropped/17.webp" />
+          </div>
         </div>
       </div>
     </div>
+
+  </div>
+  <!-- IMAGE MODAL -->
+  <div id="modal" class="modal z-20">
+    <span id="modal-close" class="modal-close">&times;</span>
+    <img id="modal-content" class="modal-content" />
   </div>
 
-</div>
-<!-- IMAGE MODAL -->
-<div id="modal" class="modal z-20">
-  <span id="modal-close" class="modal-close">&times;</span>
-  <img id="modal-content" class="modal-content" />
-</div>
+  <!-- MUSIC BACKGROUND -->
+  <embed src="TEST.mp3" loop="true" autostart="true" width="2" height="0">
 
-<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 </body>
 
 </html>
